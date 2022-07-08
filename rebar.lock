@@ -1,0 +1,26 @@
+{"1.2.0",
+[{<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.11.0">>},1},
+ {<<"emqtt">>,
+  {git,"https://github.com/emqx/emqtt",
+       {ref,"51c809ff9081bde73d7996d7d40472789c4038b6"}},
+  0},
+ {<<"getopt">>,{pkg,<<"getopt">>,<<"1.0.2">>},1},
+ {<<"gun">>,
+  {git,"https://github.com/emqx/gun",
+       {ref,"e1b5e14139e2a936ad6561bf960f70f1e80b81e2"}},
+  1},
+ {<<"quicer">>,
+  {git,"https://github.com/emqx/quic.git",
+       {ref,"562bf32e7241726b5c33da26bff5c59ab55f21a6"}},
+  1},
+ {<<"snabbkaffe">>,{pkg,<<"snabbkaffe">>,<<"1.0.1">>},2}]}.
+[
+{pkg_hash,[
+ {<<"cowlib">>, <<"0B9FF9C346629256C42EBE1EEB769A83C6CB771A6EE5960BD110AB0B9B872063">>},
+ {<<"getopt">>, <<"33D9B44289FE7AD08627DDFE1D798E30B2DA0033B51DA1B3A2D64E72CD581D02">>},
+ {<<"snabbkaffe">>, <<"8E95CCBC90E1445C6B504D7980A35FE87E140BD694CED35851965B87D42BD882">>}]},
+{pkg_hash_ext,[
+ {<<"cowlib">>, <<"2B3E9DA0B21C4565751A6D4901C20D1B4CC25CBB7FD50D91D2AB6DD287BC86A9">>},
+ {<<"getopt">>, <<"A0029AEA4322FB82A61F6876A6D9C66DC9878B6CB61FAA13DF3187384FD4EA26">>},
+ {<<"snabbkaffe">>, <<"035812759963897B71EE69A11E8DFF93BBBB0F475055479A557DD3C4FD72FE33">>}]}
+].
